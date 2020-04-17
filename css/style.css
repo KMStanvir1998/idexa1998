@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+   font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+header{
+
+/* background: aliceblue; */
+}
+.container{
+    width: 1200px;
+    /* background: lightyellow; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    text-align: center;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #bfbf41;
+}
+.logo a{}
+.logo a img{
+    width: 100px;
+}
+
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+nav ol{
+    padding: 0;
+    margin: 0;
+}
+nav ol li{
+    list-style: none;
+    display: inline-block;
+}
+nav ol li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    color: #bfbf41;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+}
+nav ol li a:hover{
+    background: #bfbf41;
+    color: #ffffff;
+}
+
+
+.banner-section{}
+.banner-section img{
+	width: 100%;
+	/* margin: auto; */
+}
+
+.about-section{}
+.about-section h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #444;
+}
+.about-section p{
+    color: #444;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+em{}
+strong{
+    color: #a9a92f;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.about-section a{
+    color: #a9a92f;
+    text-decoration: none;
+}
+span{
+    color: #47472e;
+    background: yellow;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+.blog-section{}
+.post{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+article{
+    box-shadow: 0 20px 60px #4f4f0930;
+    padding: 20px;
+    padding-top: 0;
+}
+article img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+article h2{
+    margin: 10px 0;
+    color: #332828;
+    font-weight: 600;
+    font-size: 20px;
+}
+article p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #392e2e;
+}
+
+.contact-section{padding-bottom: 100px;}
+.contact{width: 80%;margin: auto;}
+.contact h1{
+    font-size: 40px;
+    text-align: center;
+    color: #bebe23e6;
+    font-weight: 400;
+}
+form{}
+form label{
+	 display: block;
+	 font-size: 20px;
+	 color: #848429;
+	 font-weight: 500;
+	 margin-bottom: 5px;
+}
+form input,form textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #92923b9e;
+    border-radius: 5px;
+}
+
+form input[type="submit"]{ 
+	background: #dddd25fa;
+    color: #fff;
+    width: auto;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition:all 0.3s linear;
+}
+
+form input[type="submit"]:hover{
+    background: transparent;
+    color: #dddd25fa;
+}
+
+form input:focus, form textarea:focus{
+	outline-offset:0;
+	outline: none;
+	border: 1px solid #92923b9e;
+}
+
+
+   
